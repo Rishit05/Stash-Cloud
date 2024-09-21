@@ -1,0 +1,177 @@
+/* Global Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #3a6f41; /* Green */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    max-width: 120px; /* Increase the size for more visibility */
+    margin-right: 20px; /* Add more space between the logo and text */
+}
+
+h1 {
+    font-size: 48px; /* Slightly increase the font size for balance */
+    margin: 0;
+}
+
+#heading {
+    color: #f9f9f9; /* White */
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+#upar {
+    color: #000000; /* White */
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#login-section {
+    margin: auto;
+    padding: 10px;
+}
+
+.login-container {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.377);
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    margin-bottom: 15px;
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.primary-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.primary-button:hover {
+    background-color: #388E3C; /* Darker Green */
+}
+
+#uploadStatus, #loginStatus {
+    color: #d32f2f;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.upload-section, .search-section {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 600px;
+    width: 100%;
+}
+
+ul#documentList {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul#documentList li {
+    background-color: #e8f5e9; /* Lighter Green */
+    padding: 15px;
+    margin: 5px 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+ul#documentList li .delete-button {
+    background-color: #F44336; /* Red for delete */
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+ul#documentList li .delete-button:hover {
+    background-color: #D32F2F; /* Darker red */
+}
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    padding: 20px;
+    background-color: #3a6f41; /* Green */
+    color: white;
+    font-size: 14px;
+    width: 100%;
+}
